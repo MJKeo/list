@@ -2,21 +2,31 @@
 
 @media(max-width: 1000px) {
     .list-container {
-        width: 100vw;
-        padding: 5%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 25px;
+    }
+
+    .list-container h1 {
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
     }
 
     .list-item {
         background: red;
     }
 
-    .list-item h1 {
-        font-size: 28px;
+    .list-item h2 {
+        font-size: 38px;
+        margin-bottom: 0px;
         color: orange;
     }
 
-    .list-item h2 {
-        font-size: 20px;
+    .list-item p {
+        font-size: 30px;
+        margin-left: 25px;
+        margin-top: 20px;
         color: blue;
     }
 }
