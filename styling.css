@@ -1,0 +1,22 @@
+/* Phone Styling */
+
+@media(max-width: 1000px) {
+    .list-container {
+        width: 100vw;
+        padding: 5%;
+    }
+
+    .list-item {
+        background: red;
+    }
+
+    .list-item h1 {
+        font-size: 28px;
+        color: orange;
+    }
+
+    .list-item h2 {
+        font-size: 20px;
+        color: blue;
+    }
+}
