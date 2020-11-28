@@ -4,6 +4,41 @@ body {
     background-image: url("./background.jpg");
 }
 
+.list-container {
+    /* Insets */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* Padding */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Coloring */
+    background: white;
+}
+
+.list-container h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #C68E21;
+}
+
+.list-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list-item h2 {
+    margin-bottom: 0px;
+    color: #198649;
+}
+
+.list-item p {
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #BB2528;
+}
+
 /* Phone Styling */
 
 @media(max-width: 1000px) {
@@ -11,37 +46,41 @@ body {
         /* Insets */
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        background: white;
     }
 
     .list-container h1 {
         font-size: 60px;
-        font-weight: bold;
-        text-align: center;
-        color: #C68E21;
-    }
-
-    .list-item {
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     .list-item h2 {
         font-size: 24px;
-        margin-bottom: 0px;
-        color: #198649;
     }
 
     .list-item p {
         font-size: 14px;
-        margin-left: 25px;
-        margin-top: 20px;
-        color: #BB2528;
+    }
+}
+
+/* Computer Styling */
+
+@media(min-width: 1001px) {
+    .list-container {
+        /* Width */
+        width: 800px;
+        /* Centering */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .list-container h1 {
+        font-size: 55px;
+    }
+
+    .list-item h2 {
+        font-size: 28px;
+    }
+
+    .list-item p {
+        font-size: 22px;
     }
 }
