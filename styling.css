@@ -1,32 +1,47 @@
+/* General styling */
+
+body {
+    background-image: url("./background.jpg");
+}
+
 /* Phone Styling */
 
 @media(max-width: 1000px) {
     .list-container {
+        /* Insets */
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 25px;
+        margin-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: white;
     }
 
     .list-container h1 {
         font-size: 60px;
         font-weight: bold;
         text-align: center;
+        color: #C68E21;
     }
 
     .list-item {
-        background: red;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .list-item h2 {
-        font-size: 38px;
+        font-size: 24px;
         margin-bottom: 0px;
-        color: orange;
+        color: #198649;
     }
 
     .list-item p {
-        font-size: 30px;
+        font-size: 14px;
         margin-left: 25px;
         margin-top: 20px;
-        color: blue;
+        color: #BB2528;
     }
 }
